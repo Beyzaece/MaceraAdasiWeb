@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  background-color: #FFFDF8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(to right, #FFB6C1, #C084FC);
+  padding: 1rem;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+  color: #C084FC;
+}
+
+.btn-primary {
+  background-color: #FFB347;
+  border-color: #FFB347;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #FFA500;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.btn-success {
+  background-color: #C1F4D7;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn-success:hover {
+  background-color: #A3E4C2;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+section {
+  padding: 60px 0;
+  background-color: #FFFDF8;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #FF7F50;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #FFB6C1;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
